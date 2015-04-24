@@ -1,0 +1,12 @@
+{% load url from future %}
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>HOMEPAGE</title>
+</head>
+<body>
+<div><a href ="{% url 'account_signup' %}"><button style="width: 800px; height: 60px; background-color: grey">Register</button></a>
+<a href="{% url 'account_login' %}"><button style="width: 800px; height: 60px; background-color: grey">login</button></a></div>
+</body>
+</html>

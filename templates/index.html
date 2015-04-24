@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+{% load staticfiles %}
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+
+{% load socialaccount %}
+<a href="{% provider_login_url "facebook" method="oauth2" %}">Facebook OAuth2</a>
+
+</body>
+</html>

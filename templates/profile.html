@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+</head>
+<body>
+<center>
+    <a href="{% url 'account_email' %}">Change E-mail</a>
+    <a href="{% url 'account_reset_password' %}">Password Reset</a>
+    <a href="{% url 'account_change_password' %}">Change Password</a>
+    <a href="{% url 'account_logout' %}">Logout</a>
+</center>
+</body>
+</html>
